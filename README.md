@@ -1,13 +1,10 @@
-# rss-parser
+# rss-to-json-feed
 
-[![Build Status](https://travis-ci.org/bobby-brennan/rss-parser.svg?branch=master)](https://travis-ci.org/bobby-brennan/rss-parser)
+The of this project is to convert RSS or ATOM feeds to the [json-feed format](https://jsonfeed.org/version/1).
 
 ## Installation
-You can install via npm or bower:
 ```bash
 npm install --save rss-parser
-# or
-bower install --save rss-parser
 ```
 
 ## Usage
@@ -125,12 +122,6 @@ To update the output files with your changes, run
 
 `WRITE_GOLDEN=true npm test`
 
-### Publishing Releases
-```bash
-# change version in package.json
-grunt build
-git commit -a -m "vX.X.X"
-git tag vX.X.X
-npm publish
-git push --follow-tags
-```
+# Fork of rss-parser
+
+This project was originally forked from [bobby-brennan/rss-parser](https://github.com/bobby-brennan/rss-parser). It's mostly his work, I've just changed the output to match the JSON-Feed spec.
