@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "title": "reddit: the front page of the internet",
   "description": "",
-  "url": "https://www.reddit.com/",
+  "home_page_url": "https://www.reddit.com/",
   "feed_url": "https://www.reddit.com/.rss",
   "items": [
       {
