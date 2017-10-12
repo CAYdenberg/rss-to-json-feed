@@ -4,9 +4,12 @@ var Entities = require("entities");
 var FS = require('fs');
 var url = require('url');
 var XML2JS = require('xml2js');
+const moment = require('moment')
 
 var HTTP = require('http');
 var HTTPS = require('https');
+
+const RFC3339 = 'YYYY-MM-DDTHH:mm:ssZ'
 
 var Parser = module.exports = {};
 
@@ -87,15 +90,15 @@ var getContent = function(content) {
 
 var parseAtomFeed = function(xmlObj, options, callback) {
   var feed = xmlObj.feed;
-  var json = {feed: {entries: []}};
+  var json = {version: '1.0.0', items: []};
   if (feed.link) {
-    if (feed.link[0] && feed.link[0].$.href) json.feed.link = feed.link[0].$.href;
-    if (feed.link[1] && feed.link[1].$.href) json.feed.feedUrl = feed.link[1].$.href;
+    if (feed.link[0] && feed.link[0].$.href) json.home_page_url = feed.link[0].$.href;
+    if (feed.link[1] && feed.link[1].$.href) json.feed_url = feed.link[1].$.href;
   }
   if (feed.title) {
     var title = feed.title[0] || '';
     if (title._) title = title._
-    if (title) json.feed.title = title;
+    if (title) json.title = title;
   }
   var entries = feed.entry;
   (entries || []).forEach(function (entry) {
@@ -105,17 +108,16 @@ var parseAtomFeed = function(xmlObj, options, callback) {
       if (title._) title = title._;
       if (title) item.title = title;
     }
-    if (entry.link && entry.link.length) item.link = entry.link[0].$.href;
-    if (entry.updated && entry.updated.length) item.pubDate = new Date(entry.updated[0]).toISOString();
-    if (entry.author && entry.author.length) item.author = entry.author[0].name[0];
+    if (entry.link && entry.link.length) item.url = entry.link[0].$.href;
+    if (entry.updated && entry.updated.length) item.date_published = moment.utc(entry.updated[0]).format(RFC3339);
+    if (entry.author && entry.author.length) item.author = {name: entry.author[0].name[0]};
     if (entry.content && entry.content.length) {
-      item.content = getContent(entry.content[0]);
-      item.contentSnippet = getSnippet(item.content)
+      item.content_html = getContent(entry.content[0]);
     }
     if (entry.id) {
       item.id = entry.id[0];
     }
-    json.feed.entries.push(item);
+    json.items.push(item);
   });
   callback(null, json);
 }
