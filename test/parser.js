@@ -35,13 +35,13 @@ describe('Parser', function() {
   //   testParseForFile('rss-1', 'rss', done);
   // })
   //
-  // it('should parse craigslist (RSS 1.0)', function(done) {
-  //   testParseForFile('craigslist', 'rss', done);
-  // })
-
-  it('should parse atom', function(done) {
-    testParseForFile('reddit-atom', 'rss', done);
+  it('should parse craigslist (RSS 1.0)', function(done) {
+    testParseForFile('craigslist', 'rss', done);
   })
+
+  // it('should parse atom', function(done) {
+  //   testParseForFile('reddit-atom', 'rss', done);
+  // })
 
   it('should parse atom feed', function(done) {
     testParseForFile('gulp-atom', 'atom', done);
@@ -63,9 +63,9 @@ describe('Parser', function() {
   //   testParseForFile('instant-article', 'rss', done);
   // });
   //
-  it('should parse Feedburner', function(done) {
-    testParseForFile('feedburner', 'atom', done);
-  });
+  // it('should parse Feedburner', function(done) {
+  //   testParseForFile('feedburner', 'atom', done);
+  // });
   // it('should parse podcasts', function(done) {
   //   testParseForFile('narro', 'rss', done);
   // });

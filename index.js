@@ -147,34 +147,38 @@ var parseRSS = function(channel, items, options, callback) {
   var itemFields = ITEM_FIELDS.concat(options.customFields.item || []);
   var feedFields = FEED_FIELDS.concat(options.customFields.feed || []);
 
-  var json = {feed: {entries: []}};
+  var json = {
+    title: channel['title'][0],
+    home_page_url: channel['link'][0],
+    feed_url: channel.$['rdf:about'],
+    items: []
+  };
 
-  if (channel['atom:link']) json.feed.feedUrl = channel['atom:link'][0].$.href;
-  copyFromXML(channel, json.feed, feedFields);
+  if (channel['atom:link']) json.feed_url = channel['atom:link'][0].$.href;
   items.forEach(function(item) {
-    var entry = {};
-    copyFromXML(item, entry, itemFields);
+    var jsonItem = {};
     if (item.enclosure) {
         entry.enclosure = item.enclosure[0].$;
     }
     if (item.description) {
-      entry.content = getContent(item.description[0]);
-      entry.contentSnippet = getSnippet(entry.content);
+      jsonItem.content_html = getContent(item.description[0]);
+      jsonItem.summary = getSnippet(jsonItem.content_html);
     }
-    if (item.guid) {
-      entry.guid = item.guid[0];
-      if (entry.guid._) entry.guid = entry.guid._;
+    if (item.title) {
+      jsonItem.title = item.title[0]
     }
-    if (item.category) entry.categories = item.category;
-    var date = entry.pubDate || entry.date;
+    if (item.link) {
+      jsonItem.url = item.link[0]
+    }
+    var date = item['dc:date'][0] || item['dcterms:issued'][0];
     if (date) {
       try {
-        entry.isoDate = new Date(date.trim()).toISOString();
+        jsonItem.date_published = moment(date.trim()).format(RFC3339);
       } catch (e) {
         // Ignore bad date format
       }
     }
-    json.feed.entries.push(entry);
+    json.items.push(jsonItem);
   })
   callback(null, json);
 }
@@ -242,6 +246,7 @@ Parser.parseString = function(xml, options, callback) {
   }
   XML2JS.parseString(xml, function(err, result) {
     if (err) return callback(err);
+    debugger
     if (result.feed) {
       return parseAtomFeed(result, options, callback)
     } else if (result.rss && result.rss.$.version && result.rss.$.version.indexOf('2') === 0) {
