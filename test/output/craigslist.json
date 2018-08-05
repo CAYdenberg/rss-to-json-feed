@@ -1,4 +1,5 @@
 {
+  "version": "1.0.0",
   "title": "craigslist SF bay area | apts/housing for rent search ",
   "home_page_url": "https://sfbay.craigslist.org/search/apa",
   "feed_url": "https://sfbay.craigslist.org/search/apa?format=rss",

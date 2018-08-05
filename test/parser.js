@@ -27,14 +27,14 @@ describe('Parser', function() {
     })
   }
 
-  // it('should parse Reddit', function(done) {
-  //   testParseForFile('reddit', 'rss', done);
-  // })
-  //
-  // it('should parse sciencemag.org (RSS 1.0)', function(done) {
-  //   testParseForFile('rss-1', 'rss', done);
-  // })
-  //
+  it('should parse Reddit', function(done) {
+    testParseForFile('reddit', 'rss', done);
+  })
+  
+  it('should parse sciencemag.org (RSS 1.0)', function(done) {
+    testParseForFile('rss-1', 'rss', done);
+  })
+
   it('should parse craigslist (RSS 1.0)', function(done) {
     testParseForFile('craigslist', 'rss', done);
   })

@@ -5,6 +5,7 @@ var FS = require('fs');
 var url = require('url');
 var XML2JS = require('xml2js');
 const moment = require('moment')
+const _get = require('lodash.get')
 
 var HTTP = require('http');
 var HTTPS = require('https');
@@ -147,10 +148,14 @@ var parseRSS = function(channel, items, options, callback) {
   var itemFields = ITEM_FIELDS.concat(options.customFields.item || []);
   var feedFields = FEED_FIELDS.concat(options.customFields.feed || []);
 
+  const feed_url = _get(channel, 'atom:link.$.href', null)
+    || _get(channel, '$.rdf:about', null)
+
   var json = {
+    version: "1.0.0",
     title: channel['title'][0],
     home_page_url: channel['link'][0],
-    feed_url: channel.$['rdf:about'],
+    feed_url,
     items: []
   };
 
@@ -170,7 +175,16 @@ var parseRSS = function(channel, items, options, callback) {
     if (item.link) {
       jsonItem.url = item.link[0]
     }
-    var date = item['dc:date'][0] || item['dcterms:issued'][0];
+    if (item.guid) {
+      jsonItem.id = _get(item, 'guid[0]._', null) || _get(item, 'guid[0]', null)
+    }
+    if (item.category) {
+      jsonItem.tags = item.category
+    }
+
+    const date = _get(item, 'dc:date[0]', null)
+      || _get(item, 'dcterms:issued[0]', null)
+      || _get(item, 'pubDate[0]', null);
     if (date) {
       try {
         jsonItem.date_published = moment(date.trim()).format(RFC3339);

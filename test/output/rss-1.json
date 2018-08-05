@@ -1,494 +1,491 @@
 {
   "version": "1.0.0",
   "title": "Science twis",
-  "description": "Science RSS feed -- recent twis articles",
   "home_page_url": "http://science.sciencemag.org",
-  "author": {
-    "name": "Science"
-  },
+  "feed_url": "http://science.sciencemag.org",
   "items": [
     {
-      "author": "Hines, P. J.",
-      "date": "2017-06-15T10:29:47-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Food for fungi",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-a?rss=1",
-      "date_published": "2017-06-15T10:29:47-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-a?rss=1",
+      "date_published": "2017-06-15T11:29:47-06:00"
     },
     {
-      "author": "Yeston, J.",
-      "date": "2017-06-15T10:29:47-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Go with the flow in drug manufacturing",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-b?rss=1",
-      "date_published": "2017-06-15T10:29:47-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-b?rss=1",
+      "date_published": "2017-06-15T11:29:47-06:00"
     },
     {
-      "author": "Vignieri, S.",
-      "date": "2017-06-15T10:29:47-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Bigger and badder",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-c?rss=1",
-      "date_published": "2017-06-15T10:29:47-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-c?rss=1",
+      "date_published": "2017-06-15T11:29:47-06:00"
     },
     {
-      "author": "Grocholski, B.",
-      "date": "2017-06-15T10:29:47-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Saving earthquakes for the wet season",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-d?rss=1",
-      "date_published": "2017-06-15T10:29:47-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-d?rss=1",
+      "date_published": "2017-06-15T11:29:47-06:00"
     },
     {
-      "author": "Osborne, I. S.",
-      "date": "2017-06-15T10:29:47-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Space calling Earth, on the quantum line",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-e?rss=1",
-      "date_published": "2017-06-15T10:29:47-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-e?rss=1",
+      "date_published": "2017-06-15T11:29:47-06:00"
     },
     {
-      "author": "Hines, P. J.",
-      "date": "2017-06-15T10:29:47-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Early life stress in depression susceptibility",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-f?rss=1",
-      "date_published": "2017-06-15T10:29:47-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-f?rss=1",
+      "date_published": "2017-06-15T11:29:47-06:00"
     },
     {
-      "author": "Hurtley, S. M.",
-      "date": "2017-06-15T10:29:47-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Preparing for the feast during the fast",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-g?rss=1",
-      "date_published": "2017-06-15T10:29:47-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-g?rss=1",
+      "date_published": "2017-06-15T11:29:47-06:00"
     },
     {
-      "author": "Krogman, N.",
-      "date": "2017-06-15T10:29:47-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Engaging local stakeholders",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-h?rss=1",
-      "date_published": "2017-06-15T10:29:47-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-h?rss=1",
+      "date_published": "2017-06-15T11:29:47-06:00"
     },
     {
-      "author": "Ferrarelli, L. K.",
-      "date": "2017-06-15T10:29:47-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "A site-specific switch for cancer cells",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-i?rss=1",
-      "date_published": "2017-06-15T10:29:47-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-i?rss=1",
+      "date_published": "2017-06-15T11:29:47-06:00"
     },
     {
-      "author": "Lavine, M. S.",
-      "date": "2017-06-15T10:29:47-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Filtering through to what's important",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-j?rss=1",
-      "date_published": "2017-06-15T10:29:47-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-j?rss=1",
+      "date_published": "2017-06-15T11:29:47-06:00"
     },
     {
-      "author": "Grocholski, B.",
-      "date": "2017-06-15T10:29:47-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Silently taking up the slack",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-k?rss=1",
-      "date_published": "2017-06-15T10:29:47-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-k?rss=1",
+      "date_published": "2017-06-15T11:29:47-06:00"
     },
     {
-      "author": "Zahn, L. M.",
-      "date": "2017-06-15T10:29:47-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Pathogens select for genomic variants",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-l?rss=1",
-      "date_published": "2017-06-15T10:29:47-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-l?rss=1",
+      "date_published": "2017-06-15T11:29:47-06:00"
     },
     {
-      "author": "Hurtley, S. M.",
-      "date": "2017-06-15T10:29:47-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Helping a cell to migrate in 3D space",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-m?rss=1",
-      "date_published": "2017-06-15T10:29:47-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-m?rss=1",
+      "date_published": "2017-06-15T11:29:47-06:00"
     },
     {
-      "author": "Yeston, J.",
-      "date": "2017-06-15T10:29:47-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Two different combs from a single source",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-n?rss=1",
-      "date_published": "2017-06-15T10:29:47-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-n?rss=1",
+      "date_published": "2017-06-15T11:29:47-06:00"
     },
     {
-      "author": "Grocholski, B.",
-      "date": "2017-06-15T10:29:47-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Quick eruption after a long bake",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-o?rss=1",
-      "date_published": "2017-06-15T10:29:47-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-o?rss=1",
+      "date_published": "2017-06-15T11:29:47-06:00"
     },
     {
-      "author": "Yeston, J.",
-      "date": "2017-06-15T10:29:47-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "A detailed look at an electron's exit",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-p?rss=1",
-      "date_published": "2017-06-15T10:29:47-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-p?rss=1",
+      "date_published": "2017-06-15T11:29:47-06:00"
     },
     {
-      "author": "Smith, H. J.",
-      "date": "2017-06-15T10:29:47-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "The vegetation-climate loop",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-q?rss=1",
-      "date_published": "2017-06-15T10:29:47-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-q?rss=1",
+      "date_published": "2017-06-15T11:29:47-06:00"
     },
     {
-      "author": "Hines, P. J.",
-      "date": "2017-06-15T10:29:47-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "MicroRNAs in functional and dysfunctional pain",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-r?rss=1",
-      "date_published": "2017-06-15T10:29:47-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-r?rss=1",
+      "date_published": "2017-06-15T11:29:47-06:00"
     },
     {
-      "author": "Fahrenkamp-Uppenbrink, J.",
-      "date": "2017-06-15T10:29:47-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Joined-up research brings rewards",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-s?rss=1",
-      "date_published": "2017-06-15T10:29:47-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-s?rss=1",
+      "date_published": "2017-06-15T11:29:47-06:00"
     },
     {
-      "author": "Nusinovich, Y.",
-      "date": "2017-06-15T10:29:47-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "An antisensible approach to target KRAS",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-t?rss=1",
-      "date_published": "2017-06-15T10:29:47-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-t?rss=1",
+      "date_published": "2017-06-15T11:29:47-06:00"
     },
     {
-      "author": "Szuromi, P.",
-      "date": "2017-06-15T10:29:47-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Selecting against cis conformers",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-u?rss=1",
-      "date_published": "2017-06-15T10:29:47-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6343/1134-u?rss=1",
+      "date_published": "2017-06-15T11:29:47-06:00"
     },
     {
-      "author": "Wong, W.",
-      "date": "2017-06-08T10:24:19-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Why radiation causes dry mouth",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-a?rss=1",
-      "date_published": "2017-06-08T10:24:19-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-a?rss=1",
+      "date_published": "2017-06-08T11:24:19-06:00"
     },
     {
-      "author": "Stajic, J.",
-      "date": "2017-06-08T10:24:19-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Sighting of magnetic Majorana fermions?",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-b?rss=1",
-      "date_published": "2017-06-08T10:24:19-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-b?rss=1",
+      "date_published": "2017-06-08T11:24:19-06:00"
     },
     {
-      "author": "Lavine, M. S.",
-      "date": "2017-06-08T10:24:19-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Designing molecular disorder",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-c?rss=1",
-      "date_published": "2017-06-08T10:24:19-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-c?rss=1",
+      "date_published": "2017-06-08T11:24:19-06:00"
     },
     {
-      "author": "Yeston, J.",
-      "date": "2017-06-08T10:24:19-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Teaching sulfur and phosphorus to share",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-d?rss=1",
-      "date_published": "2017-06-08T10:24:19-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-d?rss=1",
+      "date_published": "2017-06-08T11:24:19-06:00"
     },
     {
-      "author": "Smith, K. T.",
-      "date": "2017-06-08T10:24:19-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Comets contributed to Earth's atmosphere",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-e?rss=1",
-      "date_published": "2017-06-08T10:24:19-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-e?rss=1",
+      "date_published": "2017-06-08T11:24:19-06:00"
     },
     {
-      "author": "Ash, C., Mueller, K. L.",
-      "date": "2017-06-08T10:24:19-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Local macrophage clean-up",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-f?rss=1",
-      "date_published": "2017-06-08T10:24:19-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-f?rss=1",
+      "date_published": "2017-06-08T11:24:19-06:00"
     },
     {
-      "author": "Purnell, B. A.",
-      "date": "2017-06-08T10:24:19-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Polycomb steps to inactivate X",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-g?rss=1",
-      "date_published": "2017-06-08T10:24:19-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-g?rss=1",
+      "date_published": "2017-06-08T11:24:19-06:00"
     },
     {
-      "author": "Kiberstis, P. A.",
-      "date": "2017-06-08T10:24:19-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "A clue to a drug's neurotoxicity?",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-h?rss=1",
-      "date_published": "2017-06-08T10:24:19-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-h?rss=1",
+      "date_published": "2017-06-08T11:24:19-06:00"
     },
     {
-      "author": "Colmone, A.",
-      "date": "2017-06-08T10:24:19-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Plasmodium leftovers cause bone loss",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-i?rss=1",
-      "date_published": "2017-06-08T10:24:19-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-i?rss=1",
+      "date_published": "2017-06-08T11:24:19-06:00"
     },
     {
-      "author": "Ray, L. B.",
-      "date": "2017-06-08T10:24:19-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Bacterial sensing mechanism revealed",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-j?rss=1",
-      "date_published": "2017-06-08T10:24:19-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-j?rss=1",
+      "date_published": "2017-06-08T11:24:19-06:00"
     },
     {
-      "author": "Zahn, L. M.",
-      "date": "2017-06-08T10:24:19-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Tracing development of the dendritic cell lineage",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-k?rss=1",
-      "date_published": "2017-06-08T10:24:19-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-k?rss=1",
+      "date_published": "2017-06-08T11:24:19-06:00"
     },
     {
-      "author": "Yeston, J.",
-      "date": "2017-06-08T10:24:19-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Swapping boron acids for carbon acids",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-l?rss=1",
-      "date_published": "2017-06-08T10:24:19-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-l?rss=1",
+      "date_published": "2017-06-08T11:24:19-06:00"
     },
     {
-      "author": "Zahn, L. M.",
-      "date": "2017-06-08T10:24:19-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Selfish genetic interactions in nematodes",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-m?rss=1",
-      "date_published": "2017-06-08T10:24:19-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-m?rss=1",
+      "date_published": "2017-06-08T11:24:19-06:00"
     },
     {
-      "author": "Smith, K. T.",
-      "date": "2017-06-08T10:24:19-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "General relativity weighs a white dwarf",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-n?rss=1",
-      "date_published": "2017-06-08T10:24:19-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-n?rss=1",
+      "date_published": "2017-06-08T11:24:19-06:00"
     },
     {
-      "author": "Pujanandez, L.",
-      "date": "2017-06-08T10:24:19-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Moving beyond mice for vaccine studies",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-o?rss=1",
-      "date_published": "2017-06-08T10:24:19-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-o?rss=1",
+      "date_published": "2017-06-08T11:24:19-06:00"
     },
     {
-      "author": "Archer, L. A.",
-      "date": "2017-06-08T10:24:19-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "From glassy carbon to mixed carbon",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-p?rss=1",
-      "date_published": "2017-06-08T10:24:19-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6342/1040-p?rss=1",
+      "date_published": "2017-06-08T11:24:19-06:00"
     },
     {
-      "author": "Smith, H. J.",
-      "date": "2017-06-01T10:23:07-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Building coral skeletons",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6341/918-a?rss=1",
-      "date_published": "2017-06-01T10:23:07-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6341/918-a?rss=1",
+      "date_published": "2017-06-01T11:23:07-06:00"
     },
     {
-      "author": "Vinson, V.",
-      "date": "2017-06-01T10:23:07-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "A step on the path to a Lassa vaccine",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6341/918-b?rss=1",
-      "date_published": "2017-06-01T10:23:07-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6341/918-b?rss=1",
+      "date_published": "2017-06-01T11:23:07-06:00"
     },
     {
-      "author": "Yeston, J.",
-      "date": "2017-06-01T10:23:07-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Coupled motion in a light-activated rotor",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6341/918-c?rss=1",
-      "date_published": "2017-06-01T10:23:07-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6341/918-c?rss=1",
+      "date_published": "2017-06-01T11:23:07-06:00"
     },
     {
-      "author": "Osborne, I. S.",
-      "date": "2017-06-01T10:23:07-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Entangle, swap, purify, repeat",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6341/918-d?rss=1",
-      "date_published": "2017-06-01T10:23:07-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6341/918-d?rss=1",
+      "date_published": "2017-06-01T11:23:07-06:00"
     },
     {
-      "author": "Grocholski, B.",
-      "date": "2017-06-01T10:23:07-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Methane takes the quick way out",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6341/918-e?rss=1",
-      "date_published": "2017-06-01T10:23:07-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6341/918-e?rss=1",
+      "date_published": "2017-06-01T11:23:07-06:00"
     },
     {
-      "author": "Ray, L. B.",
-      "date": "2017-06-01T10:23:07-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Local specificity of growth signals",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6341/918-f?rss=1",
-      "date_published": "2017-06-01T10:23:07-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6341/918-f?rss=1",
+      "date_published": "2017-06-01T11:23:07-06:00"
     },
     {
-      "author": "Kelly, P. N.",
-      "date": "2017-06-01T10:23:07-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Vaginal microbiome influences HIV acquisition",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6341/918-g?rss=1",
-      "date_published": "2017-06-01T10:23:07-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6341/918-g?rss=1",
+      "date_published": "2017-06-01T11:23:07-06:00"
     },
     {
-      "author": "Hodges, K.",
-      "date": "2017-06-01T10:23:07-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Human impacts on rainfall distribution",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6341/918-h?rss=1",
-      "date_published": "2017-06-01T10:23:07-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6341/918-h?rss=1",
+      "date_published": "2017-06-01T11:23:07-06:00"
     },
     {
-      "author": "Nusinovich, Y.",
-      "date": "2017-06-01T10:23:07-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "No escape for KRAS mutant tumors",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6341/918-i?rss=1",
-      "date_published": "2017-06-01T10:23:07-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6341/918-i?rss=1",
+      "date_published": "2017-06-01T11:23:07-06:00"
     },
     {
-      "author": "Zahn, L. M.",
-      "date": "2017-06-01T10:23:07-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Loss of flight in the Galapagos cormorant",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6341/918-j?rss=1",
-      "date_published": "2017-06-01T10:23:07-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6341/918-j?rss=1",
+      "date_published": "2017-06-01T11:23:07-06:00"
     },
     {
-      "author": "Smith, K. T.",
-      "date": "2017-06-01T10:23:07-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "The depths of an ancient lake on Mars",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6341/918-k?rss=1",
-      "date_published": "2017-06-01T10:23:07-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6341/918-k?rss=1",
+      "date_published": "2017-06-01T11:23:07-06:00"
     },
     {
-      "author": "Stajic, J.",
-      "date": "2017-06-01T10:23:07-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Detecting unusual oscillations",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6341/918-l?rss=1",
-      "date_published": "2017-06-01T10:23:07-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6341/918-l?rss=1",
+      "date_published": "2017-06-01T11:23:07-06:00"
     },
     {
-      "author": "Osborne, I. S.",
-      "date": "2017-06-01T10:23:07-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Localizing light at the nanometer scale",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6341/918-m?rss=1",
-      "date_published": "2017-06-01T10:23:07-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6341/918-m?rss=1",
+      "date_published": "2017-06-01T11:23:07-06:00"
     },
     {
-      "author": "Smith, K. T.",
-      "date": "2017-06-01T10:23:07-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Probing the structure of the magnetopause",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6341/918-n?rss=1",
-      "date_published": "2017-06-01T10:23:07-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6341/918-n?rss=1",
+      "date_published": "2017-06-01T11:23:07-06:00"
     },
     {
-      "author": "Yeston, J.",
-      "date": "2017-06-01T10:23:07-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "A versatile synthesis of pleuromutilin",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6341/918-o?rss=1",
-      "date_published": "2017-06-01T10:23:07-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6341/918-o?rss=1",
+      "date_published": "2017-06-01T11:23:07-06:00"
     },
     {
-      "author": "Fahrenkamp-Uppenbrink, J.",
-      "date": "2017-06-01T10:23:07-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Will ice sheets collapse in West Antarctica?",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6341/918-p?rss=1",
-      "date_published": "2017-06-01T10:23:07-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6341/918-p?rss=1",
+      "date_published": "2017-06-01T11:23:07-06:00"
     },
     {
-      "author": "Colmone, A.",
-      "date": "2017-06-01T10:23:07-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Differentiating myeloid cells",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6341/918-q?rss=1",
-      "date_published": "2017-06-01T10:23:07-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6341/918-q?rss=1",
+      "date_published": "2017-06-01T11:23:07-06:00"
     },
     {
-      "author": "Yeagle, P.",
-      "date": "2017-05-25T10:24:10-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Neuroplasticity in learning to read",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6340/816-a?rss=1",
-      "date_published": "2017-05-25T10:24:10-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6340/816-a?rss=1",
+      "date_published": "2017-05-25T11:24:10-06:00"
     },
     {
-      "author": "Smith, K. T.",
-      "date": "2017-05-25T10:24:10-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Juno swoops around giant Jupiter",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6340/816-b?rss=1",
-      "date_published": "2017-05-25T10:24:10-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6340/816-b?rss=1",
+      "date_published": "2017-05-25T11:24:10-06:00"
     },
     {
-      "author": "Osborne, I. S.",
-      "date": "2017-05-25T10:24:10-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Enhancing quantum sensing",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6340/816-c?rss=1",
-      "date_published": "2017-05-25T10:24:10-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6340/816-c?rss=1",
+      "date_published": "2017-05-25T11:24:10-06:00"
     },
     {
-      "author": "Grocholski, B.",
-      "date": "2017-05-25T10:24:10-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Sediments tell a tsunami story",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6340/816-d?rss=1",
-      "date_published": "2017-05-25T10:24:10-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6340/816-d?rss=1",
+      "date_published": "2017-05-25T11:24:10-06:00"
     },
     {
-      "author": "Stern, P.",
-      "date": "2017-05-25T10:24:10-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Representing direction in the fly",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6340/816-e?rss=1",
-      "date_published": "2017-05-25T10:24:10-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6340/816-e?rss=1",
+      "date_published": "2017-05-25T11:24:10-06:00"
     },
     {
-      "author": "Purnell, B. A.",
-      "date": "2017-05-25T10:24:10-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Breaking down miRNAs",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6340/816-f?rss=1",
-      "date_published": "2017-05-25T10:24:10-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6340/816-f?rss=1",
+      "date_published": "2017-05-25T11:24:10-06:00"
     },
     {
-      "author": "Stern, P.",
-      "date": "2017-05-25T10:24:10-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "A neuronal circuit for overeating",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6340/816-g?rss=1",
-      "date_published": "2017-05-25T10:24:10-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6340/816-g?rss=1",
+      "date_published": "2017-05-25T11:24:10-06:00"
     },
     {
-      "author": "Vinson, V.",
-      "date": "2017-05-25T10:24:10-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Trapping RNA polymerase in the act",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6340/816-h?rss=1",
-      "date_published": "2017-05-25T10:24:10-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6340/816-h?rss=1",
+      "date_published": "2017-05-25T11:24:10-06:00"
     },
     {
-      "author": "Nusinovich, Y.",
-      "date": "2017-05-25T10:24:10-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "No safe haven for metastases",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6340/816-i?rss=1",
-      "date_published": "2017-05-25T10:24:10-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6340/816-i?rss=1",
+      "date_published": "2017-05-25T11:24:10-06:00"
     },
     {
-      "author": "Ash, C.",
-      "date": "2017-05-25T10:24:10-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Taking a look at plant-microbe relationships",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6340/816-j?rss=1",
-      "date_published": "2017-05-25T10:24:10-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6340/816-j?rss=1",
+      "date_published": "2017-05-25T11:24:10-06:00"
     },
     {
-      "author": "Vinson, V.",
-      "date": "2017-05-25T10:24:10-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Mapping the proteome",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6340/816-k?rss=1",
-      "date_published": "2017-05-25T10:24:10-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6340/816-k?rss=1",
+      "date_published": "2017-05-25T11:24:10-06:00"
     },
     {
-      "author": "Stajic, J.",
-      "date": "2017-05-25T10:24:10-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Flicking the Berry phase switch",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6340/816-l?rss=1",
-      "date_published": "2017-05-25T10:24:10-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6340/816-l?rss=1",
+      "date_published": "2017-05-25T11:24:10-06:00"
     },
     {
-      "author": "Fahrenkamp-Uppenbrink, J.",
-      "date": "2017-05-25T10:24:10-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Who needs to know where species live?",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6340/816-m?rss=1",
-      "date_published": "2017-05-25T10:24:10-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6340/816-m?rss=1",
+      "date_published": "2017-05-25T11:24:10-06:00"
     },
     {
-      "author": "Fahrenkamp-Uppenbrink, J.",
-      "date": "2017-05-25T10:24:10-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Unintended victims of fighting corruption",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6340/816-n?rss=1",
-      "date_published": "2017-05-25T10:24:10-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6340/816-n?rss=1",
+      "date_published": "2017-05-25T11:24:10-06:00"
     },
     {
-      "author": "Ferrarelli, L. K.",
-      "date": "2017-05-25T10:24:10-07:00",
+      "content_html": "",
+      "summary": "",
       "title": "Creating a weakness in prostate cancer",
-      "id": "http://science.sciencemag.org/cgi/content/short/356/6340/816-o?rss=1",
-      "date_published": "2017-05-25T10:24:10-07:00"
+      "url": "http://science.sciencemag.org/cgi/content/short/356/6340/816-o?rss=1",
+      "date_published": "2017-05-25T11:24:10-06:00"
     }
   ]
 }
