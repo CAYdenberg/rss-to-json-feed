@@ -3,12 +3,13 @@
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "npx mocha"
   },
   "author": "@CAYdenberg",
   "license": "MIT",
   "devDependencies": {
-    "chai": "^3.4.1"
+    "chai": "^3.4.1",
+    "mocha": "^5.2.0"
   },
   "dependencies": {
     "entities": "^1.1.1",
