@@ -15,7 +15,7 @@ You can parse RSS from a URL, local file (NodeJS only), or a string.
 
 ### NodeJS
 ```js
-var parser = require('rss-parser');
+import parser from 'rss-parser';
 
 parser.parseURL('https://www.reddit.com/.rss', function(err, parsed) {
   console.log(parsed.feed.title);
