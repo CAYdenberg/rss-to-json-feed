@@ -2,7 +2,7 @@
 
 var FS = require("fs");
 
-var Parser = require("../index.ts");
+var Parser = require("../dist/index");
 
 var Expect = require("chai").expect;
 

@@ -8,9 +8,6 @@ import Entities from "entities";
 import url from "url";
 import XML2JS from "xml2js";
 import _get from "lodash.get";
-import { DateTime } from "luxon";
-
-const RFC3339 = "YYYY-MM-DDTHH:mm:ssZ";
 
 interface ParseOptions {
   customFields?: {
@@ -143,7 +140,7 @@ var parseAtomFeed = function (
     }
     if (entry.link && entry.link.length) item.url = entry.link[0].$.href;
     if (entry.updated && entry.updated.length)
-      item.date_published = DateTime.utc(entry.updated[0]).toFormat(RFC3339);
+      item.date_published = entry.updated[0];
     if (entry.author && entry.author.length)
       item.author = { name: entry.author[0].name[0] };
     if (entry.content && entry.content.length) {
@@ -243,9 +240,7 @@ var parseRSS = function (
       _get(item, "pubDate[0]", null);
     if (date) {
       try {
-        jsonItem.date_published = DateTime.fromJSDate(
-          new Date(date.trim())
-        ).toFormat(RFC3339);
+        jsonItem.date_published = date;
       } catch (e: any) {
         // Ignore bad date format
       }
