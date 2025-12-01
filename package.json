@@ -9,13 +9,13 @@
   "license": "MIT",
   "devDependencies": {
     "chai": "^3.4.1",
-    "mocha": "^5.2.0"
+    "mocha": "^11.7.5"
   },
   "dependencies": {
     "entities": "^1.1.1",
     "lodash.get": "^4.4.2",
     "moment": "^2.19.1",
-    "xml2js": "^0.4.17"
+    "xml2js": "^0.6.2"
   },
   "directories": {
     "test": "test"
